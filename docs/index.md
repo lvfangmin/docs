@@ -19,3 +19,10 @@ For full documentation visit [mkdocs.org](http://mkdocs.org).
 ## Installation
 
     funny things :)
+
+Tip
+
+The library unittest.mock was introduced on python 3.3. On earlier versions install the mock library from PyPI with (ie pip install mock) and replace the above import:
+
+    from mock import Mock as MagicMock
+
